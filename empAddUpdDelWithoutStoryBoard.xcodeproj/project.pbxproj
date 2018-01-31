@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F95238A61EF26E8A00335E40 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F95238A51EF26E8A00335E40 /* main.m */; };
+		F95238A91EF26E8A00335E40 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F95238A81EF26E8A00335E40 /* AppDelegate.m */; };
+		F95238B11EF26E8A00335E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F95238B01EF26E8A00335E40 /* Assets.xcassets */; };
+		F95238B41EF26E8A00335E40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F95238B21EF26E8A00335E40 /* LaunchScreen.storyboard */; };
+		F95238BF1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F95238BE1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests.m */; };
+		F95238CA1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F95238C91EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests.m */; };
+		F95238D81EF26E9800335E40 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F95238D71EF26E9800335E40 /* libsqlite3.0.tbd */; };
+		F95238DC1EF26FED00335E40 /* EmpRecordsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95238DA1EF26FED00335E40 /* EmpRecordsTableViewController.m */; };
+		F95238DD1EF26FED00335E40 /* EmpRecordsTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95238DB1EF26FED00335E40 /* EmpRecordsTableViewController.xib */; };
+		F95238E11EF2729900335E40 /* AddEmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95238DF1EF2729900335E40 /* AddEmployeeViewController.m */; };
+		F95238E21EF2729900335E40 /* AddEmployeeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95238E01EF2729900335E40 /* AddEmployeeViewController.xib */; };
+		F95238E51EF283C900335E40 /* employeeData.m in Sources */ = {isa = PBXBuildFile; fileRef = F95238E41EF283C900335E40 /* employeeData.m */; };
+		F95238EC1EF285E300335E40 /* employeeDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F95238EA1EF285E300335E40 /* employeeDetailsViewController.m */; };
+		F95238ED1EF285E300335E40 /* employeeDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F95238EB1EF285E300335E40 /* employeeDetailsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F95238BB1EF26E8A00335E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95238991EF26E8A00335E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F95238A01EF26E8A00335E40;
+			remoteInfo = empAddUpdDelWithoutStoryBoard;
+		};
+		F95238C61EF26E8A00335E40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95238991EF26E8A00335E40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F95238A01EF26E8A00335E40;
+			remoteInfo = empAddUpdDelWithoutStoryBoard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F95238A11EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = empAddUpdDelWithoutStoryBoard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95238A51EF26E8A00335E40 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F95238A71EF26E8A00335E40 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F95238A81EF26E8A00335E40 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F95238B01EF26E8A00335E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F95238B31EF26E8A00335E40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F95238B51EF26E8A00335E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95238BA1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = empAddUpdDelWithoutStoryBoardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95238BE1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = empAddUpdDelWithoutStoryBoardTests.m; sourceTree = "<group>"; };
+		F95238C01EF26E8A00335E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95238C51EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = empAddUpdDelWithoutStoryBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F95238C91EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = empAddUpdDelWithoutStoryBoardUITests.m; sourceTree = "<group>"; };
+		F95238CB1EF26E8A00335E40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F95238D71EF26E9800335E40 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		F95238D91EF26FED00335E40 /* EmpRecordsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmpRecordsTableViewController.h; sourceTree = "<group>"; };
+		F95238DA1EF26FED00335E40 /* EmpRecordsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmpRecordsTableViewController.m; sourceTree = "<group>"; };
+		F95238DB1EF26FED00335E40 /* EmpRecordsTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmpRecordsTableViewController.xib; sourceTree = "<group>"; };
+		F95238DE1EF2729900335E40 /* AddEmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEmployeeViewController.h; sourceTree = "<group>"; };
+		F95238DF1EF2729900335E40 /* AddEmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEmployeeViewController.m; sourceTree = "<group>"; };
+		F95238E01EF2729900335E40 /* AddEmployeeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddEmployeeViewController.xib; sourceTree = "<group>"; };
+		F95238E31EF283C900335E40 /* employeeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = employeeData.h; sourceTree = "<group>"; };
+		F95238E41EF283C900335E40 /* employeeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = employeeData.m; sourceTree = "<group>"; };
+		F95238E91EF285E300335E40 /* employeeDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = employeeDetailsViewController.h; sourceTree = "<group>"; };
+		F95238EA1EF285E300335E40 /* employeeDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = employeeDetailsViewController.m; sourceTree = "<group>"; };
+		F95238EB1EF285E300335E40 /* employeeDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = employeeDetailsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F952389E1EF26E8A00335E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95238D81EF26E9800335E40 /* libsqlite3.0.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95238B71EF26E8A00335E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95238C21EF26E8A00335E40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F95238981EF26E8A00335E40 = {
+			isa = PBXGroup;
+			children = (
+				F95238D71EF26E9800335E40 /* libsqlite3.0.tbd */,
+				F95238A31EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoard */,
+				F95238BD1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests */,
+				F95238C81EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests */,
+				F95238A21EF26E8A00335E40 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F95238A21EF26E8A00335E40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F95238A11EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoard.app */,
+				F95238BA1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests.xctest */,
+				F95238C51EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F95238A31EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				F95238A71EF26E8A00335E40 /* AppDelegate.h */,
+				F95238A81EF26E8A00335E40 /* AppDelegate.m */,
+				F95238E31EF283C900335E40 /* employeeData.h */,
+				F95238E41EF283C900335E40 /* employeeData.m */,
+				F95238D91EF26FED00335E40 /* EmpRecordsTableViewController.h */,
+				F95238DA1EF26FED00335E40 /* EmpRecordsTableViewController.m */,
+				F95238DB1EF26FED00335E40 /* EmpRecordsTableViewController.xib */,
+				F95238DE1EF2729900335E40 /* AddEmployeeViewController.h */,
+				F95238DF1EF2729900335E40 /* AddEmployeeViewController.m */,
+				F95238E01EF2729900335E40 /* AddEmployeeViewController.xib */,
+				F95238E91EF285E300335E40 /* employeeDetailsViewController.h */,
+				F95238EA1EF285E300335E40 /* employeeDetailsViewController.m */,
+				F95238EB1EF285E300335E40 /* employeeDetailsViewController.xib */,
+				F95238B01EF26E8A00335E40 /* Assets.xcassets */,
+				F95238B21EF26E8A00335E40 /* LaunchScreen.storyboard */,
+				F95238B51EF26E8A00335E40 /* Info.plist */,
+				F95238A41EF26E8A00335E40 /* Supporting Files */,
+			);
+			path = empAddUpdDelWithoutStoryBoard;
+			sourceTree = "<group>";
+		};
+		F95238A41EF26E8A00335E40 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F95238A51EF26E8A00335E40 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F95238BD1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests */ = {
+			isa = PBXGroup;
+			children = (
+				F95238BE1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests.m */,
+				F95238C01EF26E8A00335E40 /* Info.plist */,
+			);
+			path = empAddUpdDelWithoutStoryBoardTests;
+			sourceTree = "<group>";
+		};
+		F95238C81EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F95238C91EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests.m */,
+				F95238CB1EF26E8A00335E40 /* Info.plist */,
+			);
+			path = empAddUpdDelWithoutStoryBoardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F95238A01EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95238CE1EF26E8A00335E40 /* Build configuration list for PBXNativeTarget "empAddUpdDelWithoutStoryBoard" */;
+			buildPhases = (
+				F952389D1EF26E8A00335E40 /* Sources */,
+				F952389E1EF26E8A00335E40 /* Frameworks */,
+				F952389F1EF26E8A00335E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = empAddUpdDelWithoutStoryBoard;
+			productName = empAddUpdDelWithoutStoryBoard;
+			productReference = F95238A11EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F95238B91EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95238D11EF26E8A00335E40 /* Build configuration list for PBXNativeTarget "empAddUpdDelWithoutStoryBoardTests" */;
+			buildPhases = (
+				F95238B61EF26E8A00335E40 /* Sources */,
+				F95238B71EF26E8A00335E40 /* Frameworks */,
+				F95238B81EF26E8A00335E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F95238BC1EF26E8A00335E40 /* PBXTargetDependency */,
+			);
+			name = empAddUpdDelWithoutStoryBoardTests;
+			productName = empAddUpdDelWithoutStoryBoardTests;
+			productReference = F95238BA1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F95238C41EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F95238D41EF26E8A00335E40 /* Build configuration list for PBXNativeTarget "empAddUpdDelWithoutStoryBoardUITests" */;
+			buildPhases = (
+				F95238C11EF26E8A00335E40 /* Sources */,
+				F95238C21EF26E8A00335E40 /* Frameworks */,
+				F95238C31EF26E8A00335E40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F95238C71EF26E8A00335E40 /* PBXTargetDependency */,
+			);
+			name = empAddUpdDelWithoutStoryBoardUITests;
+			productName = empAddUpdDelWithoutStoryBoardUITests;
+			productReference = F95238C51EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F95238991EF26E8A00335E40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = kaamini;
+				TargetAttributes = {
+					F95238A01EF26E8A00335E40 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F95238B91EF26E8A00335E40 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F95238A01EF26E8A00335E40;
+					};
+					F95238C41EF26E8A00335E40 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F95238A01EF26E8A00335E40;
+					};
+				};
+			};
+			buildConfigurationList = F952389C1EF26E8A00335E40 /* Build configuration list for PBXProject "empAddUpdDelWithoutStoryBoard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F95238981EF26E8A00335E40;
+			productRefGroup = F95238A21EF26E8A00335E40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F95238A01EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoard */,
+				F95238B91EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests */,
+				F95238C41EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F952389F1EF26E8A00335E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95238ED1EF285E300335E40 /* employeeDetailsViewController.xib in Resources */,
+				F95238B41EF26E8A00335E40 /* LaunchScreen.storyboard in Resources */,
+				F95238B11EF26E8A00335E40 /* Assets.xcassets in Resources */,
+				F95238E21EF2729900335E40 /* AddEmployeeViewController.xib in Resources */,
+				F95238DD1EF26FED00335E40 /* EmpRecordsTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95238B81EF26E8A00335E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95238C31EF26E8A00335E40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F952389D1EF26E8A00335E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95238A91EF26E8A00335E40 /* AppDelegate.m in Sources */,
+				F95238EC1EF285E300335E40 /* employeeDetailsViewController.m in Sources */,
+				F95238A61EF26E8A00335E40 /* main.m in Sources */,
+				F95238E11EF2729900335E40 /* AddEmployeeViewController.m in Sources */,
+				F95238E51EF283C900335E40 /* employeeData.m in Sources */,
+				F95238DC1EF26FED00335E40 /* EmpRecordsTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95238B61EF26E8A00335E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95238BF1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F95238C11EF26E8A00335E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F95238CA1EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoardUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F95238BC1EF26E8A00335E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F95238A01EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoard */;
+			targetProxy = F95238BB1EF26E8A00335E40 /* PBXContainerItemProxy */;
+		};
+		F95238C71EF26E8A00335E40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F95238A01EF26E8A00335E40 /* empAddUpdDelWithoutStoryBoard */;
+			targetProxy = F95238C61EF26E8A00335E40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F95238B21EF26E8A00335E40 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F95238B31EF26E8A00335E40 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F95238CC1EF26E8A00335E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F95238CD1EF26E8A00335E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F95238CF1EF26E8A00335E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = empAddUpdDelWithoutStoryBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaamini.empAddUpdDelWithoutStoryBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F95238D01EF26E8A00335E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = empAddUpdDelWithoutStoryBoard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaamini.empAddUpdDelWithoutStoryBoard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F95238D21EF26E8A00335E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = empAddUpdDelWithoutStoryBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaamini.empAddUpdDelWithoutStoryBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/empAddUpdDelWithoutStoryBoard.app/empAddUpdDelWithoutStoryBoard";
+			};
+			name = Debug;
+		};
+		F95238D31EF26E8A00335E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = empAddUpdDelWithoutStoryBoardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaamini.empAddUpdDelWithoutStoryBoardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/empAddUpdDelWithoutStoryBoard.app/empAddUpdDelWithoutStoryBoard";
+			};
+			name = Release;
+		};
+		F95238D51EF26E8A00335E40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = empAddUpdDelWithoutStoryBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaamini.empAddUpdDelWithoutStoryBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = empAddUpdDelWithoutStoryBoard;
+			};
+			name = Debug;
+		};
+		F95238D61EF26E8A00335E40 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = empAddUpdDelWithoutStoryBoardUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaamini.empAddUpdDelWithoutStoryBoardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = empAddUpdDelWithoutStoryBoard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F952389C1EF26E8A00335E40 /* Build configuration list for PBXProject "empAddUpdDelWithoutStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95238CC1EF26E8A00335E40 /* Debug */,
+				F95238CD1EF26E8A00335E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95238CE1EF26E8A00335E40 /* Build configuration list for PBXNativeTarget "empAddUpdDelWithoutStoryBoard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95238CF1EF26E8A00335E40 /* Debug */,
+				F95238D01EF26E8A00335E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95238D11EF26E8A00335E40 /* Build configuration list for PBXNativeTarget "empAddUpdDelWithoutStoryBoardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95238D21EF26E8A00335E40 /* Debug */,
+				F95238D31EF26E8A00335E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F95238D41EF26E8A00335E40 /* Build configuration list for PBXNativeTarget "empAddUpdDelWithoutStoryBoardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F95238D51EF26E8A00335E40 /* Debug */,
+				F95238D61EF26E8A00335E40 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F95238991EF26E8A00335E40 /* Project object */;
+}
